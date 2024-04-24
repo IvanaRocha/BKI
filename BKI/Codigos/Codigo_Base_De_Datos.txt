@@ -1,0 +1,7 @@
+CREATE TABLE producto (
+    id VARCHAR(100) PRIMARY KEY,
+    modelo VARCHAR(100),
+    nombre VARCHAR(100),
+    talla VARCHAR(50),
+    precio NUMERIC(15, 2),
+);

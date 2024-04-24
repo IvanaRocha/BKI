@@ -1,0 +1,53 @@
+from machine import Pin, PWM
+import time
+
+# Definir los pines del sensor ultrasónico y del buzzer
+TRIGGER_PIN = 5
+ECHO_PIN = 18
+BUZZER_PIN = 12
+
+# Configurar los pines
+trigger = Pin(TRIGGER_PIN, Pin.OUT)
+echo = Pin(ECHO_PIN, Pin.IN)
+buzzer = PWM(Pin(BUZZER_PIN))  # Buzzer con generador de tonos PWM
+
+# Función para medir la distancia
+def medir_distancia():
+    # Generar un pulso corto en el pin TRIGGER
+    trigger.value(0)
+    time.sleep_us(2)
+    trigger.value(1)
+    time.sleep_us(10)
+    trigger.value(0)
+
+    # Medir el tiempo que tarda en llegar el eco
+    pulse_start = time.ticks_us()
+    while echo.value() == 0:
+        pulse_start = time.ticks_us()
+    while echo.value() == 1:
+        pulse_end = time.ticks_us()
+    pulse_duration = time.ticks_diff(pulse_end, pulse_start)
+    
+    # Convertir el tiempo en distancia (en centímetros)
+    distance = (pulse_duration * 0.0343) / 2
+    return distance
+
+# Función para generar un sonido agradable
+def generar_sonido(frequency, duration_ms, volume=1023):  # Aumentar el volumen a 1023
+    buzzer.freq(frequency)
+    buzzer.duty(volume)
+    time.sleep_ms(duration_ms)
+    buzzer.duty(0)
+
+# Bucle principal
+while True:
+    distancia = medir_distancia()
+    print("Distancia:", distancia, "centímetros")
+
+    # Si la distancia es menor que 60 cm, generar un sonido agradable
+    if distancia < 80:
+        generar_sonido(440, 200)  # Puedes ajustar la frecuencia y la duración según tus preferencias
+    else:
+        buzzer.duty(0)  # Apagar el buzzer si la distancia es mayor o igual que 60 cm
+    
+    time.sleep(0.1)  # Esperar antes de la próxima medición
