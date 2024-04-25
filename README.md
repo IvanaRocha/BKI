@@ -50,7 +50,7 @@ Implementar un sistema de escaneo de códigos de barras o etiquetas RFID para lo
 ### Conexiones:
 ![Conexion 1 ]("![Fritzing](https://github.com/IvanaRocha/BKI/assets/146135319/bc273774-4dc5-461d-9442-bbf3920ef13f)")
 ![Conexion 2 ](![Circuito 2](https://github.com/IvanaRocha/BKI/assets/146135319/73868d91-f22f-4255-8a65-43b9571fffea))
-![Conexion 3 ]("C:\Users\Usuario\Documents\BKI\Circuitos\Grafica_Grafama.jpg")
+![Conexion 3 ]("C:\Users\Usuario\Documents\BKI\Circuitos\Grafica_Grafama.jpg"
 
 ### Funcionalidades:
 
