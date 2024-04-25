@@ -17,7 +17,7 @@
 | 2  | Buzzer KY-006            | Un pequeño zumbador que puede generar sonidos simples.                                       | 1        | $237.38|
 | 3  | Placa ESP32              | Una placa de desarrollo basada en el microcontrolador ESP32, que ofrece capacidades de conectividad Wi-Fi y Bluetooth.| 1 | $280   |
 | 4  | RFID-RC522               | Un módulo RFID que utiliza el chip RC522 para la lectura y escritura de tarjetas de proximidad.| 1     | $60    |
-| 5  | HC-SR04 Sensor Ultrasonico | El HC-SR04 es un sensor ultrasónico que consta de un transmisor y un receptor de ultrasonido.| 2  | $64    |
+| 5  | HC-SR04 Sensor Ultrasonico | El HC-SR04 es un sensor ultrasónico que consta de un transmisor y un receptor de ultrasonido.| 1  | $64    |
 | 6  | Servomotor               | Un servomotor es un tipo de motor que incorpora un mecanismo de retroalimentación de posición.| 1      | $130     |
 
 ### Lista de Software utilizado:
