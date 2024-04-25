@@ -10,15 +10,18 @@
 "C:\Users\Usuario\Documents\BKI\PlantillaAgradecimiento\CartaFirmanda.jpg"
 
 ### Lista del Hardware utilizado:
+Aquí está la tabla con la columna de imagen agregada:
 
-| ID | Hardware                 | Descripción                                                                                   | Cantidad | Precio |
-|----|--------------------------|-----------------------------------------------------------------------------------------------|----------|--------|
-| 1  | Display LCD Pantalla 16x2| Un display de cristal líquido (LCD) con capacidad para mostrar 16 caracteres en 2 líneas.   | 1        | $73    |
-| 2  | Buzzer KY-006            | Un pequeño zumbador que puede generar sonidos simples.                                       | 1        | $237.38|
-| 3  | Placa ESP32              | Una placa de desarrollo basada en el microcontrolador ESP32, que ofrece capacidades de conectividad Wi-Fi y Bluetooth.| 1 | $280   |
-| 4  | RFID-RC522               | Un módulo RFID que utiliza el chip RC522 para la lectura y escritura de tarjetas de proximidad.| 1     | $60    |
-| 5  | HC-SR04 Sensor Ultrasonico | El HC-SR04 es un sensor ultrasónico que consta de un transmisor y un receptor de ultrasonido.| 1  | $64    |
-| 6  | Servomotor               | Un servomotor es un tipo de motor que incorpora un mecanismo de retroalimentación de posición.| 1      | $130     |
+| Id | Componente                | Descripción                                                                                   | Imagen | Cantidad | Costo total |
+|----|---------------------------|-----------------------------------------------------------------------------------------------|--------|----------|-------------|
+| 1  | Display LCD Pantalla 16x2 | Un display de cristal líquido (LCD) con capacidad para mostrar 16 caracteres en 2 líneas.   | ![Display LCD](https://example.com/display_lcd_image.jpg) | 1        | $73         |
+| 2  | Buzzer KY-006             | Un pequeño zumbador que puede generar sonidos simples.                                       | ![Buzzer KY-006](https://example.com/buzzer_image.jpg) | 1        | $237.38     |
+| 3  | Placa ESP32               | Una placa de desarrollo basada en el microcontrolador ESP32, que ofrece capacidades de conectividad Wi-Fi y Bluetooth.| ![Placa ESP32](https://example.com/esp32_image.jpg) | 1 | $280   |
+| 4  | RFID-RC522                | Un módulo RFID que utiliza el chip RC522 para la lectura y escritura de tarjetas de proximidad.| ![RFID-RC522](https://example.com/rfid_rc522_image.jpg) | 1     | $60    |
+| 5  | HC-SR04 Sensor Ultrasonico| El HC-SR04 es un sensor ultrasónico que consta de un transmisor y un receptor de ultrasonido.| ![HC-SR04 Sensor Ultrasonico](https://example.com/hc_sr04_image.jpg) | 1  | $64    |
+| 6  | Servomotor                | Un servomotor es un tipo de motor que incorpora un mecanismo de retroalimentación de posición.| ![Servomotor](https://example.com/servomotor_image.jpg) | 1      | $130        |
+
+Asegúrate de reemplazar los enlaces de las imágenes con los enlaces adecuados a las imágenes correspondientes.
 
 ### Lista de Software utilizado:
 
