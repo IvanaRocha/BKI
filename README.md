@@ -1,11 +1,11 @@
 
 
-### Integrantes del equipo:
+### Integrantes del equipo:kkkkk
 | Nombre                    | Número de control |
 |---------------------------|---------------------------|
-| Ivana Rocha Campos        | 1222100460                |
 | Kevin Conejo Salazar      | 1222100714                |
-| Brayan Yohani Morales Narváez | 1222100518            |
+| Brayan Yohani Narváez Morales | 1222100518            |
+| Ivana Rocha Campos | 1222100460            |
 
 ### Carta de liberación del proyecto:
 ![image](https://github.com/IvanaRocha/BKI/assets/135056237/1fbebe16-5561-4995-aa35-4f05f84b86f4)
@@ -14,7 +14,7 @@
 
 | Id | Componente                | Descripción                                                                                   | Imagen | Cantidad | Costo total |
 |----|---------------------------|-----------------------------------------------------------------------------------------------|--------|----------|-------------|
-| 1  | Display LCD Pantalla 16x2 | Un display de cristal líquido (LCD) con capacidad para mostrar 16 caracteres en 2 líneas.   | ![Display LCD Pantalla 16x2](https://github.com/IvanaRocha/BKI/assets/146135319/f5c183ba-8610-42db-be3b-d5d0c8820e49) | 1        | $50         |
+| 1  | Display LCD Pantalla 16x2 | Un display de cristal líquido (LCD) con capacidad para mostrar 16 caracteres en 2 líneas.   | ![image](https://github.com/IvanaRocha/BKI/assets/153453864/184eaac1-59cd-4ef8-94de-c8a631b65e8d) | 1        | $50         |
 | 2  | Buzzer KY-006             | Un pequeño zumbador que puede generar sonidos simples.                                       | ![Buzzer KY-006](https://github.com/IvanaRocha/BKI/assets/146135319/faba01e3-3def-4461-b62d-2f311f203af4) | 1        | $40     |
 | 3  | Placa ESP32               | Una placa de desarrollo basada en el microcontrolador ESP32, que ofrece capacidades de conectividad Wi-Fi y Bluetooth.| ![Placa ESP32](https://github.com/IvanaRocha/BKI/assets/146135319/89069f67-27e2-4fdc-9318-fc14d64adab4) | 1 | $280   |
 | 4  | RFID-RC522                | Un módulo RFID que utiliza el chip RC522 para la lectura y escritura de tarjetas de proximidad.| ![RFID-RC522](https://github.com/IvanaRocha/BKI/assets/146135319/d5b05b70-3f76-42f2-bb6d-fd9429632624) | 1     | $60    |
@@ -33,8 +33,8 @@
 | 3  | Node-RED  | 2.0     | Entorno de desarrollo para el Internet de las Cosas (IoT) y la integración de sistemas.|
 | 4  | Thonny    | 4.1.4   | Entorno de desarrollo integrado (IDE) para Python.                                   |
 | 5  | GitHub    | 3.12    | Plataforma de desarrollo colaborativo para alojar proyectos utilizando el control de versiones de Git. |
-| 6  | Tinkercad, SketchUp | 14.1.2 | Plataforma en línea para el diseño y simulación de circuitos electrónicos y modelos 3D. |
-| 7  | PostgreSQL| PostgreSQL13 | Sistema de gestión de bases de datos relacional (RDBMS, por sus siglas en inglés). |
+| 6  | Tinkercad | 14.1.2 | Plataforma en línea para el diseño y simulación de circuitos electrónicos y modelos 3D. |
+| 7  | PostgreSQL| PostgreSQL | 13 | Sistema de gestión de bases de datos relacional (RDBMS, por sus siglas en inglés). |
 
 ### Visión del producto:
 
