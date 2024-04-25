@@ -1,4 +1,4 @@
-## Proyecto: BKI-IntelligenceShoes
+![image](https://github.com/IvanaRocha/BKI/assets/146135319/a5a934ea-b043-488f-a98a-2b05ad2cbaac)## Proyecto: BKI-IntelligenceShoes
 
 ### Integrantes del equipo:
 | Nombre                    | Número de control |
@@ -16,13 +16,19 @@ Aquí está la tabla con la columna de imagen agregada:
 
 | Id | Componente                | Descripción                                                                                   | Imagen | Cantidad | Costo total |
 |----|---------------------------|-----------------------------------------------------------------------------------------------|--------|----------|-------------|
-| 1  | Display LCD Pantalla 16x2 | Un display de cristal líquido (LCD) con capacidad para mostrar 16 caracteres en 2 líneas.   | ![Display LCD]() | 1        | $50         |
-| 2  | Buzzer KY-006             | Un pequeño zumbador que puede generar sonidos simples.                                       | ![Buzzer KY-006](![image](https://github.com/IvanaRocha/BKI/assets/146135319/9a42f7a2-b19f-4399-b0c0-b6ebf93cc720)
+| 1  | Display LCD Pantalla 16x2 | Un display de cristal líquido (LCD) con capacidad para mostrar 16 caracteres en 2 líneas.   | ![![image](https://github.com/IvanaRocha/BKI/assets/146135319/f5c183ba-8610-42db-be3b-d5d0c8820e49)
+]() | 1        | $50         |
+| 2  | Buzzer KY-006             | Un pequeño zumbador que puede generar sonidos simples.                                       | ![Buzzer KY-006](![image](![image](https://github.com/IvanaRocha/BKI/assets/146135319/faba01e3-3def-4461-b62d-2f311f203af4)
+)
 ) | 1        | $40     |
-| 3  | Placa ESP32               | Una placa de desarrollo basada en el microcontrolador ESP32, que ofrece capacidades de conectividad Wi-Fi y Bluetooth.| ![Placa ESP32](https://example.com/esp32_image.jpg) | 1 | $280   |
-| 4  | RFID-RC522                | Un módulo RFID que utiliza el chip RC522 para la lectura y escritura de tarjetas de proximidad.| ![RFID-RC522](https://example.com/rfid_rc522_image.jpg) | 1     | $60    |
-| 5  | HC-SR04 Sensor Ultrasonico| El HC-SR04 es un sensor ultrasónico que consta de un transmisor y un receptor de ultrasonido.| ![HC-SR04 Sensor Ultrasonico](https://example.com/hc_sr04_image.jpg) | 1  | $64    |
-| 6  | Servomotor                | Un servomotor es un tipo de motor que incorpora un mecanismo de retroalimentación de posición.| ![Servomotor](https://example.com/servomotor_image.jpg) | 1      | $130        |
+| 3  | Placa ESP32               | Una placa de desarrollo basada en el microcontrolador ESP32, que ofrece capacidades de conectividad Wi-Fi y Bluetooth.| ![Placa ESP32](![image](https://github.com/IvanaRocha/BKI/assets/146135319/89069f67-27e2-4fdc-9318-fc14d64adab4)
+) | 1 | $280   |
+| 4  | RFID-RC522                | Un módulo RFID que utiliza el chip RC522 para la lectura y escritura de tarjetas de proximidad.| ![RFID-RC522](![image](https://github.com/IvanaRocha/BKI/assets/146135319/d5b05b70-3f76-42f2-bb6d-fd9429632624)
+) | 1     | $60    |
+| 5  | HC-SR04 Sensor Ultrasonico| El HC-SR04 es un sensor ultrasónico que consta de un transmisor y un receptor de ultrasonido.| ![HC-SR04 Sensor Ultrasonico](![image](https://github.com/IvanaRocha/BKI/assets/146135319/a1fe9111-ead2-452f-b3d1-d51312f3f0f8)
+) | 1  | $64    |
+| 6  | Servomotor                | Un servomotor es un tipo de motor que incorpora un mecanismo de retroalimentación de posición.| ![Servomotor](![Uploading image.png…]()
+) | 1      | $130        |
 
 Asegúrate de reemplazar los enlaces de las imágenes con los enlaces adecuados a las imágenes correspondientes.
 
