@@ -19,7 +19,8 @@
 | 3  | Placa ESP32               | Una placa de desarrollo basada en el microcontrolador ESP32, que ofrece capacidades de conectividad Wi-Fi y Bluetooth.| ![Placa ESP32](https://github.com/IvanaRocha/BKI/assets/146135319/89069f67-27e2-4fdc-9318-fc14d64adab4) | 1 | $280   |
 | 4  | RFID-RC522                | Un módulo RFID que utiliza el chip RC522 para la lectura y escritura de tarjetas de proximidad.| ![RFID-RC522](https://github.com/IvanaRocha/BKI/assets/146135319/d5b05b70-3f76-42f2-bb6d-fd9429632624) | 1     | $60    |
 | 5  | HC-SR04 Sensor Ultrasonico| El HC-SR04 es un sensor ultrasónico que consta de un transmisor y un receptor de ultrasonido.| ![HC-SR04 Sensor Ultrasonico](https://github.com/IvanaRocha/BKI/assets/146135319/a1fe9111-ead2-452f-b3d1-d51312f3f0f8) | 1  | $64    |
-| 6  | Servomotor                | Un servomotor es un tipo de motor que incorpora un mecanismo de retroalimentación de posición.| ![Servomotor](https://github.com/IvanaRocha/BKI/assets/146135319/image.png) | 1      | $130        |
+| 6  | Servomotor                | Un servomotor es un tipo de motor que incorpora un mecanismo de retroalimentación de posición.| ![Servomotor](![image](https://github.com/IvanaRocha/BKI/assets/146135319/c67740c9-84de-4cf9-9b4f-25bf107c7b66)
+) | 1      | $130        |
 
 
 
