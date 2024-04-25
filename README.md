@@ -16,8 +16,9 @@ Aquí está la tabla con la columna de imagen agregada:
 
 | Id | Componente                | Descripción                                                                                   | Imagen | Cantidad | Costo total |
 |----|---------------------------|-----------------------------------------------------------------------------------------------|--------|----------|-------------|
-| 1  | Display LCD Pantalla 16x2 | Un display de cristal líquido (LCD) con capacidad para mostrar 16 caracteres en 2 líneas.   | ![Display LCD](https://example.com/display_lcd_image.jpg) | 1        | $50         |
-| 2  | Buzzer KY-006             | Un pequeño zumbador que puede generar sonidos simples.                                       | ![Buzzer KY-006](https://example.com/buzzer_image.jpg) | 1        | $40     |
+| 1  | Display LCD Pantalla 16x2 | Un display de cristal líquido (LCD) con capacidad para mostrar 16 caracteres en 2 líneas.   | ![Display LCD]() | 1        | $50         |
+| 2  | Buzzer KY-006             | Un pequeño zumbador que puede generar sonidos simples.                                       | ![Buzzer KY-006](![image](https://github.com/IvanaRocha/BKI/assets/146135319/9a42f7a2-b19f-4399-b0c0-b6ebf93cc720)
+) | 1        | $40     |
 | 3  | Placa ESP32               | Una placa de desarrollo basada en el microcontrolador ESP32, que ofrece capacidades de conectividad Wi-Fi y Bluetooth.| ![Placa ESP32](https://example.com/esp32_image.jpg) | 1 | $280   |
 | 4  | RFID-RC522                | Un módulo RFID que utiliza el chip RC522 para la lectura y escritura de tarjetas de proximidad.| ![RFID-RC522](https://example.com/rfid_rc522_image.jpg) | 1     | $60    |
 | 5  | HC-SR04 Sensor Ultrasonico| El HC-SR04 es un sensor ultrasónico que consta de un transmisor y un receptor de ultrasonido.| ![HC-SR04 Sensor Ultrasonico](https://example.com/hc_sr04_image.jpg) | 1  | $64    |
