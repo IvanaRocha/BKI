@@ -53,9 +53,8 @@ Solución:
 Implementar un sistema de escaneo de códigos de barras o etiquetas RFID para los zapatos que llegan a su tienda. Este sistema automatizado podría leer la información de cada par de zapatos y registrarla automáticamente en una base de datos relacional sql.
 
 ### Conexiones:
-![Fritzing](https://github.com/IvanaRocha/BKI/assets/146135319/bc273774-4dc5-461d-9442-bbf3920ef13f)
-![Circuito 2](https://github.com/IvanaRocha/BKI/assets/146135319/73868d91-f22f-4255-8a65-43b9571fffea)
-![Grafica_Grafama](https://github.com/IvanaRocha/BKI/assets/146135319/c2b30620-b588-4a46-8fb4-2027079dbfbb)
+![Imagen de WhatsApp 2024-04-25 a las 20 13 30_5dde6704](https://github.com/IvanaRocha/BKI/assets/146135319/3ba0fcc9-5c25-49fc-a263-4f76edc5b964)
+
 
 
 ### Funcionalidades:
