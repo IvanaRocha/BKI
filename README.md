@@ -3,9 +3,10 @@
 ### Integrantes del equipo:
 | Nombre                    | Número de control |
 |---------------------------|---------------------------|
-| Ivana Rocha Campos        | 1222100460                |
 | Kevin Conejo Salazar      | 1222100714                |
 | Brayan Yohani Morales Narváez | 1222100518            |
+| Ivana Rocha Campos        | 1222100460                |
+
 
 ### Carta de liberación del proyecto:
 ![image](https://github.com/IvanaRocha/BKI/assets/135056237/1fbebe16-5561-4995-aa35-4f05f84b86f4)
