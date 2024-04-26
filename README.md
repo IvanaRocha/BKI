@@ -123,12 +123,14 @@ Implementar un sistema de escaneo de códigos de barras o etiquetas RFID para lo
 
 [![Demostración]
 (![image](https://github.com/IvanaRocha/BKI/assets/135056237/3772dcd9-1261-4e12-be94-29e4c78d200e)
-)](https://drive.google.com/file/d/1G_yLN00l0iIrb0YNNMv25LBRf7s9j7D4/view?usp=drive_link)
+)
+](https://drive.google.com/file/d/1G_yLN00l0iIrb0YNNMv25LBRf7s9j7D4/view?usp=drive_link)
 
 ### Prueba y agradecimientos
 
 [![Prueba/agradecimiento](![image](https://github.com/IvanaRocha/BKI/assets/135056237/a470bd36-fcf5-4f8c-8e0a-387d671316cc)
-)](https://drive.google.com/file/d/1xWY_m7rr0591NYgKXYRQpYO5yVhd1ToJ/view?usp=sharing)
+)
+](https://drive.google.com/file/d/1xWY_m7rr0591NYgKXYRQpYO5yVhd1ToJ/view?usp=sharing)
 
 
 
