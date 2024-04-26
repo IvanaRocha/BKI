@@ -1,0 +1,329 @@
+[
+    {
+        "id": "3ca997170e910ccd",
+        "type": "tab",
+        "label": "BD_POSTGRES_CRUD",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "972d6023a38b91e1",
+        "type": "http in",
+        "z": "3ca997170e910ccd",
+        "name": "",
+        "url": "/sensors/update",
+        "method": "put",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 260,
+        "wires": [
+            [
+                "830948357d5eca6e"
+            ]
+        ]
+    },
+    {
+        "id": "b47ed556791171db",
+        "type": "http in",
+        "z": "3ca997170e910ccd",
+        "name": "",
+        "url": "/sensors/insert",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 320,
+        "wires": [
+            [
+                "884a281e154d803d"
+            ]
+        ]
+    },
+    {
+        "id": "5d87085e819747a7",
+        "type": "http in",
+        "z": "3ca997170e910ccd",
+        "name": "",
+        "url": "/sensors/delete",
+        "method": "delete",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 380,
+        "wires": [
+            [
+                "255c3ff275e704f7"
+            ]
+        ]
+    },
+    {
+        "id": "85d5d201c547f185",
+        "type": "template",
+        "z": "3ca997170e910ccd",
+        "name": "Web Template",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html lang=\"en-GB\">\n<head>\n    <title>sensors</title>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-timepicker/0.5.2/css/bootstrap-timepicker.min.css\" />\n    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js\"></script>\n    <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\"></script>\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.css\" />\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid-theme.min.css\" />\n    <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.js\"></script>\n\n    <script type=\"text/javascript\">\n        $(function () {\n            console.log(\"Sensor Data CRUD\");\n\n            var db = {{#payload}}{{{.}}}{{/payload}};\n\n            $(\"#jsgrid\").jsGrid({\n                width: \"100%\",\n                inserting: true,\n                editing: true,\n                sorting: true,\n                paging: true,\n\n                data: db,\n\n                fields: [\n                    { title:\"ID\", name: \"id\", type: \"text\", width: 50 },\n                    { title:\"Modelo\", name: \"modelo\", type: \"text\", width: 50 },\n                    { title:\"Nombre\", name: \"nombre\", type:\"text\", width: 25},\n                    { title:\"Talla\", name: \"talla\", type: \"text\", width: 50 },\n                    { title:\"Precio\", name: \"precio\", type:\"text\", width: 25},\n                    { type: \"control\" }\n                ],\n           \n                controller: {\n                    insertItem: function(item) {\n                        return $.ajax({\n                            type: \"POST\",\n                            url: \"/sensors/insert\",\n                            data: item\n                        });\n                    },\n                    updateItem: function(item) {\n                       return $.ajax({\n                            type: \"PUT\",\n                            url: \"/sensors/update\",\n                            data: item\n                        });\n                    },\n                    deleteItem: function(item) {\n                        return $.ajax({\n                            type: \"DELETE\",\n                            url: \"/sensors/delete\",\n                            data: item\n                        });\n                    }\n                }   \n            });\n        });\n    \n  </script>\n</head>\n<body class=\"container\">\n    <section class=\"row\">\n        \n        <div class=\"col-md-6\"></div>\n        <div class=\"col-md-6\" id=\"jsgrid\">\n        </div>\n    </section>\n</body>\n</html>\n\n",
+        "x": 780,
+        "y": 200,
+        "wires": [
+            [
+                "275ba6ce3ea4f9ca"
+            ]
+        ]
+    },
+    {
+        "id": "9ea8deaa8fec2ed8",
+        "type": "http in",
+        "z": "3ca997170e910ccd",
+        "name": "",
+        "url": "/sensors",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 196,
+        "wires": [
+            [
+                "e7afc9c845fc0327"
+            ]
+        ]
+    },
+    {
+        "id": "275ba6ce3ea4f9ca",
+        "type": "http response",
+        "z": "3ca997170e910ccd",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 990,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "89a858b8aa76c1ea",
+        "type": "json",
+        "z": "3ca997170e910ccd",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 610,
+        "y": 200,
+        "wires": [
+            [
+                "85d5d201c547f185"
+            ]
+        ]
+    },
+    {
+        "id": "e7afc9c845fc0327",
+        "type": "postgresql",
+        "z": "3ca997170e910ccd",
+        "name": "",
+        "query": "SELECT id, modelo, nombre, talla, precio FROM producto;",
+        "postgreSQLConfig": "01b99a3d3de73b30",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 390,
+        "y": 180,
+        "wires": [
+            [
+                "89a858b8aa76c1ea"
+            ]
+        ]
+    },
+    {
+        "id": "830948357d5eca6e",
+        "type": "postgresql",
+        "z": "3ca997170e910ccd",
+        "name": "",
+        "query": "UPDATE producto\nSET modelo = '{{msg.payload.modelo}}', nombre = '{{msg.payload.nombre}}', talla = '{{msg.payload.talla}}', precio = '{{msg.payload.precio}}'\nWHERE id = '{{msg.payload.id}}'::text;\n",
+        "postgreSQLConfig": "d175c24358e2a69f",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 330,
+        "y": 260,
+        "wires": [
+            [
+                "dc371a44f579cb67"
+            ]
+        ]
+    },
+    {
+        "id": "884a281e154d803d",
+        "type": "postgresql",
+        "z": "3ca997170e910ccd",
+        "name": "",
+        "query": "INSERT INTO producto (id,modelo,nombre,talla,precio) VALUES ('{{msg.payload.id}}','{{msg.payload.modelo}}','{{msg.payload.nombre}}','{{msg.payload.talla}}','{{msg.payload.precio}}');\n",
+        "postgreSQLConfig": "01b99a3d3de73b30",
+        "split": true,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 330,
+        "y": 320,
+        "wires": [
+            [
+                "171b43f64ca83465"
+            ]
+        ]
+    },
+    {
+        "id": "255c3ff275e704f7",
+        "type": "postgresql",
+        "z": "3ca997170e910ccd",
+        "name": "",
+        "query": "DELETE FROM producto WHERE id = '{{{msg.payload.id}}}'::text;\n",
+        "postgreSQLConfig": "d175c24358e2a69f",
+        "split": true,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 330,
+        "y": 380,
+        "wires": [
+            [
+                "dc371a44f579cb67"
+            ]
+        ]
+    },
+    {
+        "id": "d99480ee09725623",
+        "type": "function",
+        "z": "3ca997170e910ccd",
+        "name": "showSaved",
+        "func": "var item = {\n    id: msg.payload[0].id,\n    modelo: msg.payload[0].modelo,\n    nombre: msg.payload[0].nombre,\n    talla: msg.payload[0].talla,\n    precio: msg.payload[0].precio,\n    imagen: msg.payload[0].imagen\n};\n\nif(item.nombre == \"\" || item.modelo == \"\" || item.id == \"\") {\n    msg.statusCode = 400;\n    msg.payload = null;\n    return msg;\n}\nmsg.payload = item;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 300,
+        "wires": [
+            [
+                "275ba6ce3ea4f9ca"
+            ]
+        ]
+    },
+    {
+        "id": "171b43f64ca83465",
+        "type": "postgresql",
+        "z": "3ca997170e910ccd",
+        "name": "",
+        "query": "SELECT id, modelo, nombre, talla, precio FROM producto WHERE id = (SELECT MAX(id) FROM producto);",
+        "postgreSQLConfig": "d175c24358e2a69f",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 510,
+        "y": 300,
+        "wires": [
+            [
+                "d99480ee09725623"
+            ]
+        ]
+    },
+    {
+        "id": "dc371a44f579cb67",
+        "type": "function",
+        "z": "3ca997170e910ccd",
+        "name": "reload",
+        "func": "msg.payload = msg.result;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 260,
+        "wires": [
+            [
+                "275ba6ce3ea4f9ca"
+            ]
+        ]
+    },
+    {
+        "id": "917defc039a64ec4",
+        "type": "remote-access",
+        "z": "3ca997170e910ccd",
+        "confignode": "901a4220762b79b4",
+        "name": "",
+        "verbose": 0,
+        "x": 900,
+        "y": 380,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "01b99a3d3de73b30",
+        "type": "postgreSQLConfig",
+        "name": "clase",
+        "host": "127.0.0.1",
+        "hostFieldType": "str",
+        "port": "5432",
+        "portFieldType": "num",
+        "database": "outfitgc",
+        "databaseFieldType": "str",
+        "ssl": "false",
+        "sslFieldType": "bool",
+        "applicationName": "",
+        "applicationNameType": "str",
+        "max": "10",
+        "maxFieldType": "num",
+        "idle": "1000",
+        "idleFieldType": "num",
+        "connectionTimeout": "10000",
+        "connectionTimeoutFieldType": "num",
+        "user": "postgres",
+        "userFieldType": "str",
+        "password": "12345",
+        "passwordFieldType": "str"
+    },
+    {
+        "id": "d175c24358e2a69f",
+        "type": "postgreSQLConfig",
+        "name": "clase",
+        "host": "127.0.0.1",
+        "hostFieldType": "str",
+        "port": "5432",
+        "portFieldType": "num",
+        "database": "outfitgc",
+        "databaseFieldType": "str",
+        "ssl": "false",
+        "sslFieldType": "bool",
+        "applicationName": "",
+        "applicationNameType": "str",
+        "max": "10",
+        "maxFieldType": "num",
+        "idle": "1000",
+        "idleFieldType": "num",
+        "connectionTimeout": "10000",
+        "connectionTimeoutFieldType": "num",
+        "user": "postgres",
+        "userFieldType": "str",
+        "password": "12345",
+        "passwordFieldType": "str"
+    },
+    {
+        "id": "901a4220762b79b4",
+        "type": "remote-config",
+        "name": "Node-RED UI",
+        "host": "localhost",
+        "protocol": "http",
+        "port": "1880",
+        "baseurl": "/sensors",
+        "instancehash": "wiz4bc1q78g21qyns5oh3wgtqxonqd03dnuz12rkxjz9s3gsscqux6bt8b2tne5q",
+        "server": "nodered04.remote-red.com",
+        "region": "de"
+    }
+]
