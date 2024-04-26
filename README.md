@@ -94,12 +94,34 @@ Implementar un sistema de escaneo de códigos de barras o etiquetas RFID para lo
 #### Flujos de Node RED
 ##### CRUD
 ![image](https://github.com/IvanaRocha/BKI/assets/135056237/9c28746a-c2bc-4a13-b988-2b4e0fdceec7)
+###### Archivo txt del CRUD
 [CRUD](BKI/Codigos/CRUD)
 
 
 
 ##### Registro
 ![image](https://github.com/IvanaRocha/BKI/assets/135056237/0affd358-313f-4433-9b31-fd0081936aae)
+###### Archivo rfid
+[rfid](BKI/Codigos/rfid.txt)
+
+#### Pantallas de Dashboard
+##### Registro
+![image](https://github.com/IvanaRocha/BKI/assets/135056237/83e60a63-a333-4a8b-944f-51dd186468e5)
+
+##### Confirmación
+![image](https://github.com/IvanaRocha/BKI/assets/135056237/d03636a7-5426-42de-91e3-c2e224154761)
+
+##### Guardado en archivo xml
+![image](https://github.com/IvanaRocha/BKI/assets/135056237/4fa1ce41-540f-4d16-b33d-2fc8133d0eb2)
+
+##### Dashboard de Grafana
+![image](https://github.com/IvanaRocha/BKI/assets/135056237/641ffe69-87eb-4023-a23c-190019f6e769)
+
+### Video demostrativo
+
+
+
+
 
 
 
