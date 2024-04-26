@@ -12,7 +12,7 @@ Nombre del proyecto: BKI.
 
 ### Lista del Hardware utilizado:
 
-
+Aquí tienes la tabla corregida para que se vea correctamente:
 
 | Id | Componente                | Descripción                                                                                   | Imagen | Cantidad | Costo total |
 |----|---------------------------|-----------------------------------------------------------------------------------------------|--------|----------|-------------|
@@ -21,8 +21,9 @@ Nombre del proyecto: BKI.
 | 3  | Placa ESP32               | Una placa de desarrollo basada en el microcontrolador ESP32, que ofrece capacidades de conectividad Wi-Fi y Bluetooth.| ![Placa ESP32](https://github.com/IvanaRocha/BKI/assets/146135319/89069f67-27e2-4fdc-9318-fc14d64adab4) | 1 | $280   |
 | 4  | RFID-RC522                | Un módulo RFID que utiliza el chip RC522 para la lectura y escritura de tarjetas de proximidad.| ![RFID-RC522](https://github.com/IvanaRocha/BKI/assets/146135319/d5b05b70-3f76-42f2-bb6d-fd9429632624) | 1     | $60    |
 | 5  | HC-SR04 Sensor Ultrasonico| El HC-SR04 es un sensor ultrasónico que consta de un transmisor y un receptor de ultrasonido.| ![HC-SR04 Sensor Ultrasonico](https://github.com/IvanaRocha/BKI/assets/146135319/a1fe9111-ead2-452f-b3d1-d51312f3f0f8) | 1  | $64    |
-| 6  | Cable Dupont Multicolor Elegoo                 | Cable Dupont Multicolor Elegoo |(https://github.com/IvanaRocha/BKI/assets/146135319/7d230318-3c68-41f1-b42d-70678812df70)
-)| 1      | $0 ya los teniamos        |
+| 6  | Cable Dupont Multicolor Elegoo                 | Cable Dupont Multicolor Elegoo | ![Cable Dupont Multicolor Elegoo](https://github.com/IvanaRocha/BKI/assets/146135319/7d230318-3c68-41f1-b42d-70678812df70) | 1      | $0 ya los teniamos        |
+
+Ahora la tabla está correctamente formateada y es fácil de leer.
 
 
 
@@ -37,7 +38,7 @@ Nombre del proyecto: BKI.
 | 3  | Node-RED  | 2.0     | Entorno de desarrollo para el Internet de las Cosas (IoT) y la integración de sistemas.|
 | 4  | Thonny    | 4.1.4   | Entorno de desarrollo integrado (IDE) para Python.                                   |
 | 5  | GitHub    | 3.12    | Plataforma de desarrollo colaborativo para alojar proyectos utilizando el control de versiones de Git. |
-| 6  | Tinkercad, SketchUp | 14.1.2 | Plataforma en línea para el diseño y simulación de circuitos electrónicos y modelos 3D. |
+| 6  | Tinkercad | 14.1.2 | Plataforma en línea para el diseño y simulación de circuitos electrónicos y modelos 3D. |
 | 7  | PostgreSQL| PostgreSQL13 | Sistema de gestión de bases de datos relacional (RDBMS, por sus siglas en inglés). |
 
 ### Visión del producto:
