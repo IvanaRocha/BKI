@@ -1,0 +1,159 @@
+[
+    {
+        "id": "102196338b7ed827",
+        "type": "tab",
+        "label": "Flujo 13",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "346fd6c32f213c82",
+        "type": "mqtt in",
+        "z": "102196338b7ed827",
+        "name": "",
+        "topic": "zapato",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "894951dafb5e412e",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 140,
+        "wires": [
+            [
+                "50caf0a386c81e42",
+                "5d65e03349c44623"
+            ]
+        ]
+    },
+    {
+        "id": "5d65e03349c44623",
+        "type": "postgresql",
+        "z": "102196338b7ed827",
+        "name": "",
+        "query": "INSERT INTO producto (id) VALUES ('{{msg.payload}}');",
+        "postgreSQLConfig": "9277f660ec41eacb",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 2,
+        "x": 590,
+        "y": 120,
+        "wires": [
+            [],
+            [
+                "4b72f8b5d75c1570"
+            ]
+        ]
+    },
+    {
+        "id": "50caf0a386c81e42",
+        "type": "debug",
+        "z": "102196338b7ed827",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 590,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "4b72f8b5d75c1570",
+        "type": "function",
+        "z": "102196338b7ed827",
+        "name": "Mensaje de error",
+        "func": "msg.topic = \"error\";\nmsg.payload = \"No se pudo insertar en la base de datos\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 140,
+        "wires": [
+            [
+                "ca1ac8b2cd9052f7"
+            ]
+        ]
+    },
+    {
+        "id": "ca1ac8b2cd9052f7",
+        "type": "mqtt out",
+        "z": "102196338b7ed827",
+        "name": "",
+        "topic": "error",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "894951dafb5e412e",
+        "x": 1030,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "894951dafb5e412e",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "9277f660ec41eacb",
+        "type": "postgreSQLConfig",
+        "name": "equipo5",
+        "host": "localhost",
+        "hostFieldType": "str",
+        "port": "5432",
+        "portFieldType": "num",
+        "database": "outfitgc",
+        "databaseFieldType": "str",
+        "ssl": "false",
+        "sslFieldType": "bool",
+        "applicationName": "",
+        "applicationNameType": "str",
+        "max": "10",
+        "maxFieldType": "num",
+        "idle": "1000",
+        "idleFieldType": "num",
+        "connectionTimeout": "10000",
+        "connectionTimeoutFieldType": "num",
+        "user": "postgres",
+        "userFieldType": "str",
+        "password": "12345",
+        "passwordFieldType": "str"
+    }
+]
