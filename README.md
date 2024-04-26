@@ -106,9 +106,11 @@ Implementar un sistema de escaneo de códigos de barras o etiquetas RFID para lo
 ###### Archivo rfid
 [rfid](BKI/Codigos/rfid.txt)
 
+
 #### Pantallas de Dashboard
 ##### Registro
 ![image](https://github.com/IvanaRocha/BKI/assets/135056237/83e60a63-a333-4a8b-944f-51dd186468e5)
+![Imagen de WhatsApp 2024-04-25 a las 23 43 00_b0d5319a](https://github.com/IvanaRocha/BKI/assets/146135319/661d3ab4-e4dd-48b7-baff-53a26519d6af)
 
 ##### Confirmación
 ![image](https://github.com/IvanaRocha/BKI/assets/135056237/d03636a7-5426-42de-91e3-c2e224154761)
