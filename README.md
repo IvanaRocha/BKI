@@ -1,4 +1,4 @@
-## Nombre del proyecto: BKI.
+# Nombre del proyecto: BKI.
 
 ### Integrantes del equipo:
 | Nombre                    | Número de control |
@@ -45,7 +45,7 @@ Aquí tienes la tabla corregida para que se vea correctamente:
 ### Visión del producto:
 
 Público:
-La tienda de Aufit Geser se enfoca en brindar una experiencia innovadora y conveniente a la empresaria Georgina, quien busca adquirir calzado de moda de manera eficiente.
+La tienda de OutfitGC se enfoca en brindar una experiencia innovadora y conveniente a la empresaria Georgina, quien busca adquirir calzado de moda de manera eficiente.
 
 Problema:
 Georgina enfrenta una carga de trabajo manual y consume mucho tiempo al registrar la información de cada par de zapatos individualmente en una hoja de cálculo.
@@ -54,7 +54,17 @@ Solución:
 Implementar un sistema de escaneo de códigos de barras o etiquetas RFID para los zapatos que llegan a su tienda. Este sistema automatizado podría leer la información de cada par de zapatos y registrarla automáticamente en una base de datos relacional sql.
 
 ### Conexiones:
-![Imagen de WhatsApp 2024-04-25 a las 20 13 30_5dde6704](https://github.com/IvanaRocha/BKI/assets/146135319/3ba0fcc9-5c25-49fc-a263-4f76edc5b964)
+
+#### Modelo de Tinkercad
+![image](https://github.com/IvanaRocha/BKI/assets/135056237/285c54b2-170b-4b01-9d71-ac164f64ce28)
+
+#### Circuito de fritzing
+
+
+
+#### Circuito armado
+![image](https://github.com/IvanaRocha/BKI/assets/135056237/61d72912-ea35-44bc-b6f0-e9cd5ccdc860)
+
 
 
 
@@ -65,6 +75,12 @@ Implementar un sistema de escaneo de códigos de barras o etiquetas RFID para lo
 | 1  | Implementación de hoja de Excel para seguimiento de inventario | Alta | 12 horas | Verificar que las etiquetas de ciertos productos sean detectadas y guardadas correctamente en una base de datos. Luego, confirmar que los datos se reflejen adecuadamente en una hoja de Excel para monitoreo de inventarios. | Kevin |
 | 2  | Creación de gráficas en Grafana para visualización de registros de zapatos | Alta | 4 horas | Generar gráficas que muestren de forma intuitiva y comprensible las estimaciones de registros de zapatos. | Brayan |
 | 3  | Desarrollo del CRUD para gestión de datos | Alta | 10 horas | Verificar que todas las funcionalidades del CRUD (actualización, eliminación e inserción) operen correctamente. | Kevin |
+| 4  | Implementación de sistema de escaneo de códigos de barras o etiquetas RFID para registro automatizado de zapatos | Alta | 7 horas | Probar el sistema de escaneo para asegurar que lee correctamente la información de cada par de zapatos y la registra automáticamente en la base de datos relacional SQL. | Kevin y Brayan |
+| 5  | Desarrollo de interfaz de usuario para el sistema de escaneo de códigos de barras o etiquetas RFID | Alta | 4 horas | Verificar que la interfaz de usuario sea intuitiva y fácil de usar para Georgina. | Brayan y Kevin |
+| 6  | Implementación de display OLED para mostrar información relevante del inventario | Media | 2 horas | Verificar que el display OLED muestre de forma clara y legible información actualizada del inventario. | Brayan |
+| 7  | Integración de sensor de proximidad para detectar movimiento en el local | Alta | 4 horas | Verificar que el sensor de proximidad detecte de manera precisa el movimiento en el almacén y registre los eventos correctamente en el sistema de gestión de inventario. | Ivana |
+
+
 
 
 ### Prototipo dibujo:
@@ -72,3 +88,18 @@ Implementar un sistema de escaneo de códigos de barras o etiquetas RFID para lo
 |----------|-----------|
 | Uso      | ![WhatsApp Image 2024-02-12 at 9 14 12 PM](https://github.com/BrayanYNm67/EquipoKBI/assets/135056237/0e9b5acc-e60c-47f5-97bc-aee0f3a0d0a8.png) |
 | Aparato  | ![WhatsApp Image 2024-02-12 at 9 32 07 PM](https://github.com/BrayanYNm67/EquipoKBI/assets/135056237/1ca3decb-5d76-49ba-8366-4e07bc8e1905.png) |
+
+
+### Evidencias de Funcionamiento
+#### Flujos de Node RED
+##### CRUD
+![image](https://github.com/IvanaRocha/BKI/assets/135056237/9c28746a-c2bc-4a13-b988-2b4e0fdceec7)
+
+
+
+##### Registro
+![image](https://github.com/IvanaRocha/BKI/assets/135056237/0affd358-313f-4433-9b31-fd0081936aae)
+
+
+
+
