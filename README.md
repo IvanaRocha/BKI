@@ -14,12 +14,14 @@ Nombre del proyecto: BKI.
 
 | Id | Componente                | Descripción                                                                                   | Imagen | Cantidad | Costo total |
 |----|---------------------------|-----------------------------------------------------------------------------------------------|--------|----------|-------------|
-| 1  | Display LCD Pantalla 16x2 | Un display de cristal líquido (LCD) con capacidad para mostrar 16 caracteres en 2 líneas.   | ![Display LCD Pantalla 16x2](https://github.com/IvanaRocha/BKI/assets/146135319/f5c183ba-8610-42db-be3b-d5d0c8820e49) | 1        | $50         |
+| 1  | Display LCD Pantalla 16x2 | Un display de cristal líquido (LCD) con capacidad para mostrar 16 caracteres en 2 líneas.   | ![Display Pantalla Oled 128x64](![image](https://github.com/IvanaRocha/BKI/assets/146135319/8b52da40-e069-480d-8f4e-2a88906091d6)
+) | 1        | $60         |
 | 2  | Buzzer KY-006             | Un pequeño zumbador que puede generar sonidos simples.                                       | ![Buzzer KY-006](https://github.com/IvanaRocha/BKI/assets/146135319/faba01e3-3def-4461-b62d-2f311f203af4) | 1        | $40     |
 | 3  | Placa ESP32               | Una placa de desarrollo basada en el microcontrolador ESP32, que ofrece capacidades de conectividad Wi-Fi y Bluetooth.| ![Placa ESP32](https://github.com/IvanaRocha/BKI/assets/146135319/89069f67-27e2-4fdc-9318-fc14d64adab4) | 1 | $280   |
 | 4  | RFID-RC522                | Un módulo RFID que utiliza el chip RC522 para la lectura y escritura de tarjetas de proximidad.| ![RFID-RC522](https://github.com/IvanaRocha/BKI/assets/146135319/d5b05b70-3f76-42f2-bb6d-fd9429632624) | 1     | $60    |
 | 5  | HC-SR04 Sensor Ultrasonico| El HC-SR04 es un sensor ultrasónico que consta de un transmisor y un receptor de ultrasonido.| ![HC-SR04 Sensor Ultrasonico](https://github.com/IvanaRocha/BKI/assets/146135319/a1fe9111-ead2-452f-b3d1-d51312f3f0f8) | 1  | $64    |
-| 6  | Servomotor                | Un servomotor es un tipo de motor que incorpora un mecanismo de retroalimentación de posición.| ![Servomotor](https://github.com/IvanaRocha/BKI/assets/146135319/c67740c9-84de-4cf9-9b4f-25bf107c7b66) | 1      | $130        |
+| 6  | Cable Dupont Multicolor Elegoo                 | Cable Dupont Multicolor Elegoo | ![Cable Dupont Multicolor Elegoo ](![Uploading image.png…]()
+) | 1      | $0 ya los teniamos        |
 
 
 
