@@ -59,11 +59,11 @@ Implementar un sistema de escaneo de códigos de barras o etiquetas RFID para lo
 ![image](https://github.com/IvanaRocha/BKI/assets/135056237/285c54b2-170b-4b01-9d71-ac164f64ce28)
 
 #### Circuito de fritzing
-
-
+![image](https://github.com/IvanaRocha/BKI/assets/135056237/3d17cd79-2420-443d-992c-b60a730b03f3)
 
 #### Circuito armado
 ![image](https://github.com/IvanaRocha/BKI/assets/135056237/61d72912-ea35-44bc-b6f0-e9cd5ccdc860)
+
 
 
 
