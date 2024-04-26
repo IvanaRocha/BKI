@@ -94,6 +94,7 @@ Implementar un sistema de escaneo de códigos de barras o etiquetas RFID para lo
 #### Flujos de Node RED
 ##### CRUD
 ![image](https://github.com/IvanaRocha/BKI/assets/135056237/9c28746a-c2bc-4a13-b988-2b4e0fdceec7)
+[CRUD](BKI/Codigos/CRUD)
 
 
 
