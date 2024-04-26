@@ -64,6 +64,8 @@ Implementar un sistema de escaneo de códigos de barras o etiquetas RFID para lo
 #### Circuito armado
 ![image](https://github.com/IvanaRocha/BKI/assets/135056237/61d72912-ea35-44bc-b6f0-e9cd5ccdc860)
 
+#### Resultado
+![image](https://github.com/IvanaRocha/BKI/assets/135056237/315ae106-acbb-4ec8-95f3-00c71c55c1c9)
 
 
 
