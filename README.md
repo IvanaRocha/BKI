@@ -61,8 +61,10 @@ Implementar un sistema de escaneo de códigos de barras o etiquetas RFID para lo
 
 | ID | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable |
 |----|---------------------|-----------|------------|---------------|-------------|
-| 1  | Implementación del RFID | Alta | 12 horas | Se ingresan etiquetas a ciertos productos y la configuración lo detecta y lo guarda en una base de datos para ser monitoreado mediante una inserción de inventarios. | Kevin, Brayan e Ivana |
-| 2  | Sensor que detecta el movimiento | Alta | 2 horas | Cada vez que alguien entra, el sensor lo detecta y el usuario puede ver que alguien entró a su tienda. | Kevin, Brayan e Ivana |
+| 1  | Implementación de hoja de Excel para seguimiento de inventario | Alta | 12 horas | Verificar que las etiquetas de ciertos productos sean detectadas y guardadas correctamente en una base de datos. Luego, confirmar que los datos se reflejen adecuadamente en una hoja de Excel para monitoreo de inventarios. | Kevin |
+| 2  | Creación de gráficas en Grafana para visualización de registros de zapatos | Alta | 4 horas | Generar gráficas que muestren de forma intuitiva y comprensible las estimaciones de registros de zapatos. | Brayan |
+| 3  | Desarrollo del CRUD para gestión de datos | Alta | 10 horas | Verificar que todas las funcionalidades del CRUD (actualización, eliminación e inserción) operen correctamente. | Kevin |
+
 
 ### Prototipo dibujo:
 | Concepto | Prototipo |
